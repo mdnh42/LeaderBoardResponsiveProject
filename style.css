@@ -116,11 +116,35 @@ Courses Style
     border-radius: 10px;
 }
 
-/* Device Maintain */
-@media screen and (max-width: 576px) {
-    
+/* Small Device */
+@media screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .players,  .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .player,  .blogs, .courses{
+        flex-direction: column;
+        gap: 20px;
+    }
+   
+     
 }
 
-@media screen and (max-width: 577px) and  (min-width: 960px){
+/* Medium Device */
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .players,  .blogs, .courses{
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    .player,  .blogs, .courses{
+        flex-direction: column;
+       
+    }
     
 }
