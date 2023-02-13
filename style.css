@@ -99,6 +99,22 @@ Courses Style
     width: 177px;
 }
 
+.field{
+    color: #fFC014;
+}
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    
+}
+
+.course{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 /* Device Maintain */
 @media screen and (max-width: 576px) {
