@@ -11,11 +11,15 @@ body{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #FFFFFF;
     width: 870px;
     padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
 }
 
 
@@ -86,8 +90,14 @@ span{
     color: #9f9f9f;
 }
 
-
-
+/* -------------------
+Courses Style
+----------------------
+ */
+.course .course-banner img{
+    height: 110px;
+    width: 177px;
+}
 
 
 /* Device Maintain */
