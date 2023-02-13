@@ -53,3 +53,48 @@ hr{
     border: 1px solid #562EFF;
 
 }
+
+
+/* Blogs Style */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+
+.blog{
+    display: flex;
+}
+
+.blog-title{
+    font-size: 20px;
+}
+
+.blog-info{
+    margin-left: 16px;
+}
+
+span{
+    color: #562EFF;
+}
+.blog-author{
+    color: #9f9f9f;
+}
+
+
+
+
+
+/* Device Maintain */
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 577px) and  (min-width: 960px){
+    
+}
